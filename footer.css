@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{
+	padding: 0;
+	margin: 0;
+    /* font-family: 'Noto Sans TC', Arial, sans-serif; */
+    list-style: none;
+}
+
+.container{
+	width: 100%;
+}
+/* footer */
+.black{
+	background: url(img/footer_bg.svg)no-repeat center center;
+    background-size: cover;
+}
+
+footer{
+   padding: 30px 0;
+   color: #fff;
+}
+
+.f-logo{
+	margin-top: 9px;
+}
+footer .nav-link{
+	font-size: 12px;
+	padding-right: 5rem;
+	font-weight: 300;
+}
+
+a.f-title{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+footer > p{
+	text-align: center;
+	color: #fff;
+	font-weight: 200;
+	font-size: 12px;
+	font-family: Arial;
+	margin-top:30px;
+}
+
+footer > p::before,
+footer > p::after{
+	transform: translateY(-2px);
+	width: 400px;
+	content:"";
+	height: 1px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 0 30px;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 576px)  {
+	*{
+		overflow-x: hidden;
+	}
+	footer > p::before,
+	footer > p::after{
+		height: 0;
+	}
+	/* 響應式 footer 手風琴 */
+	.tab {
+	  position: relative;
+	  margin-bottom: 1px;
+	  width: 100%;
+	  color: #fff;
+	  overflow: hidden;
+	}
+	input.f-tab {
+	  position: absolute;
+	  opacity: 0;
+	  z-index: -1;
+	}
+	label.f-tab {
+	  position: relative;
+	  display: block;
+	  padding: 0 0 0 1em;
+	  background: #6F7E8C;
+	  line-height: 3;
+	  cursor: pointer;
+	  border-bottom: 1px solid #fff;
+	}
+	.tab-content {
+	  max-height: 0;
+	  overflow: hidden;
+	  background: #6F7E8C;
+	  -webkit-transition: max-height .35s;
+	  -o-transition: max-height .35s;
+	  transition: max-height .35s;
+	}
+
+	.tab-content ul {
+	  margin: 0.5em 1em;
+	}
+	.tab-content li{
+	  line-height: 2;
+	  font-weight: 300;
+	}
+	.tab-content ul li a{
+		color: #fff;
+	}
+	.tab-content ul li a:hover{
+		color: #eee;
+		text-decoration: none;
+	}
+	/* :checked */
+	input.f-tab:checked ~ .tab-content {
+	  max-height: 10em;
+	}
+	/* Icon */
+	label.f-tab::after {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  display: block;
+	  width: 3em;
+	  height: 3em;
+	  line-height: 3;
+	  text-align: center;
+	  -webkit-transition: all .35s;
+	  -o-transition: all .35s;
+	  transition: all .35s;
+	}
+    input.f-tab[type=checkbox] + label::after {
+	  content: "+";
+	}
+	input.f-tab[type=radio] + label.f-tab::after {
+	  content: "\25BC";
+	}
+    input.f-tab[type=checkbox]:checked + label.f-tab::after {
+	  transform: rotate(315deg);
+	}
+    input.f-tab[type=radio]:checked + label.f-tab::after {
+	  transform: rotateX(180deg);
+	}
+	/* 響應式手風琴 end */
+}

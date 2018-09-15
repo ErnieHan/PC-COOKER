@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="595px" viewBox="0 0 842 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>07</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-1">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-2">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,64.2956843 C0,64.2956843 35.4890625,63.7650459 54.9109375,67.3026352 C69.1690656,69.8996679 84.1737,72.9768399 99.6555828,71.7028656 C114.600186,70.4731995 124.732578,65.3737647 137.145628,61.6804331 C149.568566,57.9841829 162.720706,55.906999 177.277578,56.825534 C194.127291,57.8887565 210.503463,61.1554548 226.176563,64.2956843 C259.723438,71.0171039 329.701939,42.3305974 339,39.4090903 L339,0 L0,0 L0,64.2956843 Z" id="path-3"></path>
+        <path d="M0,64.2956843 C0,64.2956843 35.4890625,63.7650459 54.9109375,67.3026352 C69.1690656,69.8996679 84.1737,72.9768399 99.6555828,71.7028656 C114.600186,70.4731995 124.732578,65.3737647 137.145628,61.6804331 C149.568566,57.9841829 162.720706,55.906999 177.277578,56.825534 C194.127291,57.8887565 210.503463,61.1554548 226.176563,64.2956843 C259.723438,71.0171039 329.701939,42.3305974 339,39.4090903 L339,0 L0,0 L0,64.2956843 Z" id="path-4"></path>
+    </defs>
+    <g id="07" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="842" height="595"></rect>
+        <g id="Group" transform="translate(82.000000, 65.000000)">
+            <g id="Group-2-Copy-2" transform="translate(169.500000, 36.000000) scale(1, -1) translate(-169.500000, -36.000000) ">
+                <g id="Fill-5">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+            <g id="Group-2-Copy-3" transform="translate(508.500000, 251.000000) scale(-1, -1) translate(-508.500000, -251.000000) translate(339.000000, 215.000000)">
+                <g id="Fill-5">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                </g>
+            </g>
+            <rect id="Rectangle-2" fill="#A2C1DD" x="0" y="36" width="339" height="215"></rect>
+            <text id="•-防呆篩選，自組電腦沒煩惱。-•-介面" font-family="PingFangTC-Light, PingFang TC" font-size="16" font-weight="300" line-spacing="24" letter-spacing="2" fill="#FFFFFF">
+                <tspan x="17" y="112">	• 	防呆篩選，自組電腦沒煩惱。</tspan>
+                <tspan x="17" y="136">	• 	介面設計淺顯易懂，使用者極易</tspan>
+                <tspan x="53" y="160">操作上手。</tspan>
+                <tspan x="17" y="184">	• 	操作流程流暢，與市面上電腦零</tspan>
+                <tspan x="53" y="208">組件店商網站做出區別。</tspan>
+            </text>
+            <text id="•-新創品牌知名度不高。-•-他牌市佔率" font-family="PingFangTC-Light, PingFang TC" font-size="16" font-weight="300" line-spacing="24" letter-spacing="2" fill="#84A9CC">
+                <tspan x="360" y="112">	• 	新創品牌知名度不高。</tspan>
+                <tspan x="360" y="136">	• 	他牌市佔率高。</tspan>
+                <tspan x="360" y="160">	• 	行銷預算不足。</tspan>
+            </text>
+            <text id="•-直播與實況業崛起。-•-電競產業往主" font-family="PingFangTC-Light, PingFang TC" font-size="16" font-weight="300" line-spacing="24" letter-spacing="2" fill="#84A9CC">
+                <tspan x="14" y="327">	• 	直播與實況業崛起。</tspan>
+                <tspan x="14" y="351">	• 	電競產業往主流靠攏。</tspan>
+                <tspan x="14" y="375">	• 	帶動流行趨勢：自組電腦。</tspan>
+            </text>
+            <rect id="Rectangle-2-Copy" fill="#A1C0DC" x="339" y="251" width="339" height="215"></rect>
+            <text id="S" font-family="Avenir-LightOblique, Avenir" font-size="36" font-style="italic" font-weight="300" letter-spacing="4.5" fill="#FFFFFF">
+                <tspan x="21" y="90">S</tspan>
+            </text>
+            <text id="W" font-family="Avenir-LightOblique, Avenir" font-size="36" font-style="italic" font-weight="300" letter-spacing="4.5" fill="#84A9CC">
+                <tspan x="356" y="90">W</tspan>
+            </text>
+            <text id="•-消費者對其他品牌忠誠度高。-•-亮點" font-family="PingFangTC-Light, PingFang TC" font-size="16" font-weight="300" line-spacing="24" letter-spacing="2" fill="#FFFFFF">
+                <tspan x="356" y="327">	• 	消費者對其他品牌忠誠度高。</tspan>
+                <tspan x="356" y="351">	• 	亮點功能在公開發布會有效仿之</tspan>
+                <tspan x="392" y="375">虞。</tspan>
+            </text>
+            <text id="O" font-family="Avenir-LightOblique, Avenir" font-size="36" font-style="italic" font-weight="300" letter-spacing="4.5" fill="#84A9CC">
+                <tspan x="14" y="299">O</tspan>
+            </text>
+            <text id="T" font-family="Avenir-LightOblique, Avenir" font-size="36" font-style="italic" font-weight="300" letter-spacing="4.5" fill="#FFFFFF">
+                <tspan x="356" y="299">T</tspan>
+            </text>
+            <text id="Type-something" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" line-spacing="24" letter-spacing="1.5"></text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1050px" viewBox="0 0 1920 1050" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="20.2883416%" y1="55.2255105%" x2="88.429952%" y2="77.9674378%" id="linearGradient-1">
+            <stop stop-color="#B3CEE6" offset="0%"></stop>
+            <stop stop-color="#E3E2F8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="64.0171611%" y1="95.3415462%" x2="98.2351085%" y2="18.8078022%" id="linearGradient-2">
+            <stop stop-color="#BAD4E8" offset="0%"></stop>
+            <stop stop-color="#9EBDD9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.5893096%" y1="60.707463%" x2="5.14346524%" y2="63.3424697%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,832 C69.71,833.415 139.134,837.369 208.679,841.595 C276.817,845.734 341.367,859.337 408.351,871.787 C480.898,885.271 545.524,881.843 617.114,868.223 C692.752,853.833 764.267,825.021 841.999,821 C1000.629,812.795 1131.835,910.414 1285.072,933.99 C1389.455,950.05 1489.677,917.784 1590.484,897.105 C1698.69,874.909 1810.202,868.805 1920.171,879.274 C1918.71,765.882 1920,652.402 1920,539 L0,539 C0,539 0,832 0,832" id="path-4"></path>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-5">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-6">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,727 C0,727 201,721 311,761 C391.754,790.365 476.736,825.159 564.421,810.754 C649.063,796.85 706.45,739.19 776.754,697.429 C847.114,655.635 921.604,632.148 1004.05,642.534 C1099.482,654.556 1192.232,691.493 1281,727 C1471,803 1920,567 1920,567 L1920,0 L0,0 L0,727 Z" id="path-7"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首頁">
+            <g id="Group-10">
+                <path d="M0,918 C71.103,949.6 144.432,976.326 218.229,1000.567 C287.771,1023.41 360.856,1035.259 434.031,1036.125 C505.203,1036.968 576.532,1027.422 644.869,1007.468 C713.809,987.338 779.42,956.796 850.372,943.372 C927.654,928.749 1007.021,925.167 1085.303,932.817 C1220.362,946.017 1337.057,1026.891 1471.661,1042.515 C1551.987,1051.844 1633.319,1052.439 1713.78,1044.376 C1729.532,1042.797 1920,1013.814 1920,1016 L1920,814 L0,814 L0,918 Z" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                <g id="Fill-3">
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+                <g id="Fill-5">
+                    <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

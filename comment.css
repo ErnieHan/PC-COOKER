@@ -1,0 +1,455 @@
+/* 用戶評論 */
+body{
+	background-color: #F5F8FB;
+}
+  /* 用戶評論的 hero section */
+.h-section{
+	/* background-color: #84A9CD; */
+	background-image: linear-gradient(to bottom, #84a9cc, #b4cee6);
+	/*padding-bottom: 35px;*/
+	color: #fff;
+}
+
+.h-section h1{
+	font-size: 40px;
+	font-weight: 200;
+	padding:40px 0;
+}
+
+.h-section p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-bottom: 40px;
+	/*padding-left:40px;*/
+}
+
+
+  /* 加入購物車按鈕 */
+button.add-to-cart, button.loginNow {
+	margin: 0 auto;
+	padding: 8px 30px;
+	background-color: #FC9F66;
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	margin-top: 15px;
+}
+
+button.add-to-cart:hover, button.loginNow:hover{
+	background-color: #F17529;
+	transition: all .4s;
+}
+button.loginNow a{
+	color: #fff;
+	text-decoration: none;
+}
+/* searchbar 樣式 */
+.s_bar{
+	position: relative;
+	padding-bottom: 20px;
+}
+.s_bar img{
+	position: absolute;
+	width: 25px;
+    top: 19%;
+    left: 508px;
+}
+.searchbar{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 8px 15px;
+	border-radius: 50px;
+	border: 2px solid #84A9CD;
+}
+
+.searchbar:focus{
+	outline: 0;
+}
+   
+   /* 修改 placeholder 色彩 */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #84A9CD;
+  opacity: 0.9;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #84A9CD;
+  opacity: 0.9;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #84A9CD;
+  opacity: 0.9;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #84A9CD;
+  opacity: 0.9;
+}
+
+p.keyword{
+  padding-left: 20px;
+}
+
+
+.hot_keyword{
+	background: #84A9CD;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 3px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+p.keyword span.select{
+	padding-left: 8px;
+	cursor: pointer;
+}
+
+p.keyword span{
+	cursor: pointer;
+}
+
+p.keyword span:last-child{
+	color: #84A9CD;
+}
+
+p.keyword a{
+    color: #84A9CD;
+	padding-right: 5px;
+}
+
+p.keyword a:hover{
+	text-decoration: none;
+}
+
+
+/* end of search bar */
+
+/* 熱門評論 */
+.comment{
+	margin-top: 30px;
+	color: #666;
+}
+.c-space{
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px #eee;
+	background-color: #fff;
+}
+
+  /* 用戶貼文內容 */
+.post{
+	margin-top: 20px;
+}
+  /* 用戶頭像 */
+.profile img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background-color: #ccc;
+}
+
+.username{
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.userMessageImg{
+	width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+	background-color: #ccc;
+	margin-bottom: 3px;
+}
+.userMessageName{
+	font-weight: 500;
+    color: #84A9CD;
+}
+
+.userMessageMore{
+	display:none;
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid #ddd;
+}
+
+.p-text{
+   margin-left: 70px;
+   text-align: justify;
+}
+
+.p-text a{
+	display: flex;
+	flex-direction: row-reverse;
+	color: #84A9CD;
+	text-decoration: none;
+	margin: 10px 0px;
+}
+
+.p-img img{
+	width: 100%;
+}
+.readmore{
+	display: flex;
+    flex-direction: row-reverse;
+    color: #84A9CD;
+    text-decoration: none;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+  /* 購買清單 */
+.list{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.list h4{
+	margin: 20px 0;
+}
+.cta-button{
+	width: 96%;
+}
+.cta-button button{
+	background-color: #FC9F66;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px 20px;
+	position: relative;
+	width: 100%;
+}
+
+.cta-button button:hover{
+	background-color: #F17529;
+	transition: all .4s;
+}
+
+.pd .table td, .table th {
+    padding: .6rem;
+}
+.thtol{
+	padding: 1rem .6rem 0!important;
+}
+	/* 解決表格第一列不要有上框線*/
+.pd .table tr:first-child td, .table tr:first-child th{
+	border: 0;
+}
+
+
+/* 投稿欄位 */
+
+/* 未登入狀態 */
+.unLogin{
+	background-color: #fae39c;
+	background:url(img/bg-bottom.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.caption{
+	padding: 40px 0;
+}
+
+/* 立即登入按鈕 */
+button.loginNow{
+	font-size: 20px;
+}
+
+/* pagination */
+ul.pagination > li.page-item a, .page-item.disabled .page-link{
+	border: 1px solid #84A9CD;
+	background-color: transparent;
+}
+
+.page-item.disabled .page-link{
+	color: #97C5D8;
+}
+ul.pagination > li.page-item a{
+	color: #84A9CD;
+}
+
+ul.pagination > li.page-item a:hover{
+	background-color: #84A9CD;
+	color: #fff;
+}
+
+ul.pagination > li.page-item:nth-child(2) a, ul.pagination > li.page-item a:active{
+	background-color: #84A9CD;
+	color: #fff;
+}
+
+
+/* go to top 回到頂端*/
+.circle{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #84A9CD;
+	z-index: 1000;
+	text-align: center;
+	opacity: 0;
+}
+
+.circle img{
+	width: 25px;
+	height: 25px;
+	transform: translateY(-2px);
+	vertical-align: middle;
+}
+
+.show{
+	opacity: 1;
+}
+
+button.circle:focus{
+	outline:0;
+}
+.fakelink{
+	font-weight: 500;
+	color: #84A9CD;
+}
+th{
+	font-weight: 400;
+}
+
+/* 手機版 */
+
+@media screen and (max-width: 576px)  {
+	*{
+		overflow-x: hidden;
+	}
+	.h-section h1, .h-section p{
+		padding-left: 0;
+	}
+	/* 購買清單 */
+	.list{
+		margin-top: 0;
+		overflow-y: hidden;
+	}
+	/* 標題都有神秘的直向捲軸 */
+	h1, h3{
+		overflow-y: hidden;
+	}
+
+	.navbar{
+		height: 70px;
+	}
+
+	.userMessageImg{
+		margin-left: 2px;
+	}
+
+	.userMessageMore{
+		margin-top: 15px;
+		padding-top: 15px;
+   		border-top: 1px solid #ddd;
+	}
+	
+	/* searchbar */
+	p.keyword{
+  		padding-left: 0;
+  		text-align: justify;
+	}
+
+	p.keyword a:hover{
+	text-decoration: underline;
+	}
+	p.keyword a{
+	    padding-right: 0;
+        padding-left: 3px;
+	}
+	p.keyword span.select{
+		padding: 0;
+		padding-left: 5px;
+	}
+	.s_bar img {
+    position: absolute;
+    width: 25px;
+    top: 10px;
+    left: 296px;
+	}
+
+	.hot_keyword{
+	  padding: 1.2px 6px;
+	}
+	/* 購物清單 */
+	.list h4 {
+		padding: 8px 0;
+		margin:0 0 5px 0;
+		overflow-y: hidden;
+		background-color: #97C5D8;
+		color: #fff;
+		font-weight: 300;
+		font-size: 17px;
+		letter-spacing: 2px;
+		border-radius: 5px;
+	}
+	.p-text{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.pd{
+		margin: 0 auto;
+	}
+
+	.pd.table{
+		margin-top: 5px;
+	}
+	
+	.pd .table td, .table th{
+		border-bottom: 1px solid #dee2e6;
+	}
+	 /* 解決表格最後一列不要有底線*/
+	.pd .table tr:last-child td, .table tr:last-child th{
+		border: 0;
+	}
+
+	.cta-button{
+		width: 95%;
+	}
+
+	.pd > .cta-button button{
+		margin-top: 10px;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	.caption p{
+		font-size: 22px;
+	}
+
+	.dpn, .m_dpn{
+		margin-left: 10px; 
+		transform: translateY(-3px) rotate(180deg);
+	}
+
+	.list > h4 > img{
+		margin-left: 10px; 
+		transition: all .4s;
+	}
+	footer > p::before,
+	footer > p::after{
+		height: 0;
+	}
+	.swal-modal {
+      width: 260px;
+    }
+    .swal-icon{
+     transform: scale(0.8);
+    }
+}
+
+/* sweet alert */
+.swal-title {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 20px;
+}

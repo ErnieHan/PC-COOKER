@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="468px" viewBox="0 0 1920 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-1">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-2">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,417.921948 C0,417.921948 201,414.472799 311,437.467129 C391.754,454.347841 476.736,474.349459 564.421,466.068626 C649.063,458.075797 706.45,424.92947 776.754,400.922815 C847.114,376.897189 921.604,363.395493 1004.05,369.365971 C1099.482,376.276917 1192.232,397.510456 1281,417.921948 C1471,461.611175 1920,325.944628 1920,325.944628 L1920,0 L0,0 L0,417.921948 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Fill-5">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

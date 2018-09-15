@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="370px" viewBox="0 0 1920 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-1">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-2">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,330.408378 C0,330.408378 201,327.681486 311,345.860764 C391.754,359.206627 476.736,375.019872 564.421,368.473059 C649.063,362.153942 706.45,335.948513 776.754,316.968892 C847.114,297.974273 921.604,287.299856 1004.05,292.020105 C1099.482,297.483887 1192.232,314.271087 1281,330.408378 C1471,364.949006 1867.33842,217.532237 1920,202.518936 L1920,0 L0,0 L0,330.408378 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我要組電腦">
+            <g id="Group-2">
+                <g id="Fill-5">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

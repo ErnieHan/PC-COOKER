@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="36px" viewBox="0 0 37 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 36 36 36 36 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-14">
+            <path d="M31.9023,35.5 L4.0973,35.5 C2.1103,35.5 0.5003,33.89 0.5003,31.902 L0.5003,4.098 C0.5003,2.11 2.1103,0.5 4.0973,0.5 L31.9023,0.5 C33.8893,0.5 35.5003,2.11 35.5003,4.098 L35.5003,31.902 C35.5003,33.89 33.8893,35.5 31.9023,35.5 Z" id="Stroke-1" stroke="#6C757D"></path>
+            <path d="M9.5,8 C9.5,9.381 8.381,10.5 7,10.5 C5.619,10.5 4.5,9.381 4.5,8 C4.5,6.619 5.619,5.5 7,5.5 C8.381,5.5 9.5,6.619 9.5,8 Z" id="Stroke-3" stroke="#6C757D" stroke-width="0.833"></path>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-6"></g>
+            <polygon id="Stroke-5" stroke="#6C757D" mask="url(#mask-2)" points="25.5 20.5 27.5 20.5 27.5 4.5 25.5 4.5"></polygon>
+            <polygon id="Stroke-7" stroke="#6C757D" mask="url(#mask-2)" points="29.5 20.5 31.5 20.5 31.5 4.5 29.5 4.5"></polygon>
+            <path d="M17.5,8 C17.5,9.381 16.381,10.5 15,10.5 C13.619,10.5 12.5,9.381 12.5,8 C12.5,6.619 13.619,5.5 15,5.5 C16.381,5.5 17.5,6.619 17.5,8 Z" id="Stroke-8" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)"></path>
+            <path d="M22.5,8 C22.5,9.381 21.381,10.5 20,10.5 C18.619,10.5 17.5,9.381 17.5,8 C17.5,6.619 18.619,5.5 20,5.5 C21.381,5.5 22.5,6.619 22.5,8 Z" id="Stroke-9" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)"></path>
+            <polygon id="Stroke-10" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)" points="4.5 21.5 13.5 21.5 13.5 12.5 4.5 12.5"></polygon>
+            <polygon id="Stroke-11" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)" points="20.5 30.5 4.5 30.5 4.5 28.5 4.5 26.5 20.5 26.5 20.5 28.5"></polygon>
+            <path d="M4.5,28.5 L20.5,28.5 L4.5,28.5 Z" id="Stroke-12" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)"></path>
+            <polygon id="Stroke-13" stroke="#6C757D" stroke-width="0.885" mask="url(#mask-2)" points="24.5 31.5 31.5 31.5 31.5 26.5 24.5 26.5"></polygon>
+        </g>
+    </g>
+</svg>

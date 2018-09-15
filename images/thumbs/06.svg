@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="595px" viewBox="0 0 842 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>06</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="660" height="384" rx="15"></rect>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-3">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-4">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,158.95322 C0,158.95322 75.165625,157.641364 116.301042,166.38707 C146.499673,172.807512 178.2794,180.414965 211.069936,177.265418 C242.722518,174.22541 264.182865,161.618474 290.473631,152.487737 C316.78534,143.349786 344.641496,138.214525 375.472865,140.485348 C411.160456,143.11387 445.845092,151.189874 479.040625,158.95322 C550.092708,175.570062 698.306762,104.650644 718,97.4280288 L718,0 L0,0 L0,158.95322 Z" id="path-5"></path>
+    </defs>
+    <g id="06" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="842" height="595"></rect>
+        <text id="影片" font-family="PingFangTC-Light, PingFang TC" font-size="36" font-weight="300" letter-spacing="4.5" fill="#84A9CC">
+            <tspan x="381" y="101">影片</tspan>
+        </text>
+        <g id="Group-2-Copy-2" transform="translate(91.000000, 135.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#A1C0DC" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" id="Fill-5">
+                <g transform="translate(325.000000, 295.000000) scale(1, -1) translate(-325.000000, -295.000000) translate(-34.000000, 206.000000)">
+                    <g>
+                        <use fill="url(#linearGradient-3)" xlink:href="#path-5"></use>
+                        <use fill-opacity="0.1" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="play" transform="translate(368.000000, 274.000000)" fill="#FBFBFB" fill-rule="nonzero">
+            <rect id="Rectangle-path" opacity="0" x="0" y="0" width="107" height="107"></rect>
+            <path d="M102.527311,16.3450667 C87.5191904,14.1946667 70.9359987,13 53.50107,13 C36.0661413,13 19.4829497,14.1925333 4.47268945,16.3450667 C1.59647193,27.5664 0,39.9653333 0,53 C0,66.0346667 1.59647193,78.4336 4.47268945,89.6549333 C19.4829497,91.8053333 36.0640013,93 53.50107,93 C70.9381388,93 87.5191904,91.8074667 102.527311,89.6549333 C105.403528,78.4336 107,66.0346667 107,53 C107,39.9653333 105.403528,27.5664 102.527311,16.3450667 Z M40.1236625,73 L40.1236625,33 L73.5618312,53 L40.1236625,73 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

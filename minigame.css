@@ -1,0 +1,617 @@
+* {
+
+    transition: background-position 0s;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+.notselect {
+    user-select: none;
+}
+
+.minigame {
+    margin-top: 150px;
+    height: 42vw;
+}
+
+.cursorgrab {
+    cursor: grab;
+}
+
+.cursorgrab:active {
+    cursor: grabbing;
+}
+
+#drag_Graphic_Card {
+    z-index: 999;
+    height: auto;
+    clip-path: polygon(84% 35%, 54% 64%, 70% 82%, 96% 46%);
+}
+
+#drag_CPU {
+    z-index: 999;
+    height: auto;
+    clip-path: polygon(20% 55%, 24% 50%, 29% 55%, 24% 61%);
+}
+
+#drag_CPUFAN {
+    z-index: 999;
+    height: auto;
+    clip-path: polygon(5% 45%, 16% 30%, 30% 45%, 16% 58%);
+}
+
+#drag_RAM1 {
+    z-index: 999;
+    height: auto;
+    clip-path: polygon(39% 52%, 43% 58%, 29% 74%, 24% 68%);
+}
+
+#drag_RAM2 {
+    z-index: 999;
+    height: auto;
+    clip-path: polygon(51% 63%, 44% 58%, 29% 73%, 33% 80%);
+}
+
+#drag_case_fan {
+    clip-path: polygon(51% 96%, 66% 82%, 51% 64%, 37% 79%);
+}
+
+#drop_Graphic_Card {
+    z-index: 98;
+    width: 30%;
+    height: 25vw;
+    top: 15%;
+    left: 15%;
+}
+
+#drop_CPU {
+    z-index: 99;
+    width: 30%;
+    height: 20vw;
+    top: 0%;
+    left: 60%;
+}
+
+#drop_CPUFAN {
+    z-index: 99;
+    width: 50%;
+    top: 0%;
+    left: 70%;
+}
+
+#drop_RAM1 {
+    z-index: 99;
+    width: 40%;
+    height: 20vw;
+    top: 0%;
+    left: 60%;
+}
+
+#drop_RAM2 {
+    z-index: 99;
+    width: 40%;
+    height: 20vw;
+    top: 0%;
+    left: 60%;
+}
+
+.modelkit_CPU, .modelkit_Graphic_Card, .modelkit_CPUFAN, .modelkit_RAM1, .modelkit_RAM2 {
+    opacity: 0;
+}
+
+.t0l0 {
+    top: 0;
+    left: 0;
+}
+
+.case {
+    opacity: 0;
+    transition: all .5s;
+    width: 60%;
+    right: 20%;
+    top: 0;
+}
+
+.CASE_HDD, .case_POWER, .modelkit_CPU, .modelkit_CPUFAN, .modelkit_Graphic_Card, .modelkit_RAM1, .modelkit_RAM2 {
+    transform: translateY(-100%);
+    transition: all .5s;
+}
+
+.live2d {
+    transform: translateX(-50%);
+    left: 0;
+    bottom: 0;
+}
+
+.message {
+    opacity: 0;
+    height: auto;
+    margin: auto;
+    padding: 7px;
+    left: 10%;
+    bottom: 10%;
+    text-align: left;
+    border-radius: 12px;
+    background-color: #83A9CB;
+    color: #ffffff;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: absolute;
+    animation-delay: 5s;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+    cursor: default;
+    font-weight: 300;
+    z-index: 999999;
+}
+
+.nextStep {
+    padding: 7px;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    right: 10%;
+    bottom: 10%;
+    border-radius: 12px;
+    background-color: #83A9CB;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: default;
+    font-weight: 300;
+    z-index: 99999999;
+    cursor: pointer;
+}
+.nextStep:hover{
+    filter: brightness(1.1);
+}
+
+.resetgame {
+    right: 30%;
+    padding: 7px;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    bottom: 10%;
+    border-radius: 12px;
+    background-color: lightblue;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: default;
+    font-weight: 300;
+    cursor: pointer;
+}
+.resetgame:hover{
+    filter: brightness(1.1);
+}
+
+@keyframes shake {
+    2% {
+        transform: translate(0.5px, -1.5px) rotate(-0.5deg);
+    }
+
+    4% {
+        transform: translate(0.5px, 1.5px) rotate(1.5deg);
+    }
+
+    6% {
+        transform: translate(1.5px, 1.5px) rotate(1.5deg);
+    }
+
+    8% {
+        transform: translate(2.5px, 1.5px) rotate(0.5deg);
+    }
+
+    10% {
+        transform: translate(0.5px, 2.5px) rotate(0.5deg);
+    }
+
+    12% {
+        transform: translate(1.5px, 1.5px) rotate(0.5deg);
+    }
+
+    14% {
+        transform: translate(0.5px, 0.5px) rotate(0.5deg);
+    }
+
+    16% {
+        transform: translate(-1.5px, -0.5px) rotate(1.5deg);
+    }
+
+    18% {
+        transform: translate(0.5px, 0.5px) rotate(1.5deg);
+    }
+
+    20% {
+        transform: translate(2.5px, 2.5px) rotate(1.5deg);
+    }
+
+    22% {
+        transform: translate(0.5px, -1.5px) rotate(1.5deg);
+    }
+
+    24% {
+        transform: translate(-1.5px, 1.5px) rotate(-0.5deg);
+    }
+
+    26% {
+        transform: translate(1.5px, 0.5px) rotate(1.5deg);
+    }
+
+    28% {
+        transform: translate(-0.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    30% {
+        transform: translate(1.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    32% {
+        transform: translate(2.5px, -1.5px) rotate(1.5deg);
+    }
+
+    34% {
+        transform: translate(2.5px, 2.5px) rotate(-0.5deg);
+    }
+
+    36% {
+        transform: translate(0.5px, -1.5px) rotate(0.5deg);
+    }
+
+    38% {
+        transform: translate(2.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    40% {
+        transform: translate(-0.5px, 2.5px) rotate(0.5deg);
+    }
+
+    42% {
+        transform: translate(-1.5px, 2.5px) rotate(0.5deg);
+    }
+
+    44% {
+        transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+    }
+
+    46% {
+        transform: translate(1.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    48% {
+        transform: translate(2.5px, -0.5px) rotate(0.5deg);
+    }
+
+    50% {
+        transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+    }
+
+    52% {
+        transform: translate(-0.5px, 1.5px) rotate(0.5deg);
+    }
+
+    54% {
+        transform: translate(-1.5px, 1.5px) rotate(0.5deg);
+    }
+
+    56% {
+        transform: translate(0.5px, 2.5px) rotate(1.5deg);
+    }
+
+    58% {
+        transform: translate(2.5px, 2.5px) rotate(0.5deg);
+    }
+
+    60% {
+        transform: translate(2.5px, -1.5px) rotate(1.5deg);
+    }
+
+    62% {
+        transform: translate(-1.5px, 0.5px) rotate(1.5deg);
+    }
+
+    64% {
+        transform: translate(-1.5px, 1.5px) rotate(1.5deg);
+    }
+
+    66% {
+        transform: translate(0.5px, 2.5px) rotate(1.5deg);
+    }
+
+    68% {
+        transform: translate(2.5px, -1.5px) rotate(1.5deg);
+    }
+
+    70% {
+        transform: translate(2.5px, 2.5px) rotate(0.5deg);
+    }
+
+    72% {
+        transform: translate(-0.5px, -1.5px) rotate(1.5deg);
+    }
+
+    74% {
+        transform: translate(-1.5px, 2.5px) rotate(1.5deg);
+    }
+
+    76% {
+        transform: translate(-1.5px, 2.5px) rotate(1.5deg);
+    }
+
+    78% {
+        transform: translate(-1.5px, 2.5px) rotate(0.5deg);
+    }
+
+    80% {
+        transform: translate(-1.5px, 0.5px) rotate(-0.5deg);
+    }
+
+    82% {
+        transform: translate(-1.5px, 0.5px) rotate(-0.5deg);
+    }
+
+    84% {
+        transform: translate(-0.5px, 0.5px) rotate(1.5deg);
+    }
+
+    86% {
+        transform: translate(2.5px, 1.5px) rotate(0.5deg);
+    }
+
+    88% {
+        transform: translate(-1.5px, 0.5px) rotate(1.5deg);
+    }
+
+    90% {
+        transform: translate(-1.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    92% {
+        transform: translate(-1.5px, -1.5px) rotate(1.5deg);
+    }
+
+    94% {
+        transform: translate(0.5px, 0.5px) rotate(-0.5deg);
+    }
+
+    96% {
+        transform: translate(2.5px, -0.5px) rotate(-0.5deg);
+    }
+
+    98% {
+        transform: translate(-1.5px, -1.5px) rotate(-0.5deg);
+    }
+
+    0%, 100% {
+        transform: translate(0, 0) rotate(0);
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .minigame {
+        height: 42vw;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .minigame {
+        height: 42vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .minigame {
+        height: 39vw;
+        width: 60%;
+    }
+    .nextStep{
+        width: 160px;
+    }
+    .resetgame{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .minigame {
+        margin-top: 90px;
+        height: 47vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .minigame {
+        margin-top: 30px;
+        height: 57vw;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .minigame {
+        margin-top: 0px;
+        height: 40vw;
+        width: 60%;
+    }
+
+    .resetgame {
+        bottom: 20%;
+        right: 0%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .nextStep {
+        right: 0%;
+        bottom: 1%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 16px;
+        left: 20%;
+    }
+
+    .logo_minigame {
+        width: 196px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .minigame {
+        margin-top: 100px;
+        height: 40vw;
+        width: 60%;
+    }
+
+    .resetgame {
+        bottom: 20%;
+        right: 0%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .nextStep {
+        right: 0%;
+        bottom: 1%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 16px;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .minigame {
+        margin-top: 10px;
+        height: 55vw;
+        width: 60%;
+    }
+
+    .resetgame {
+        bottom: 20%;
+        right: 0%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .nextStep {
+        right: 0%;
+        bottom: 1%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 16px;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .minigame {
+        margin-top: 30px;
+        height: 50vw;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .live2d {
+        transform: translate(-38%, 40%) scale(.7);
+        left: 0;
+        bottom: 0;
+    }
+
+    .resetgame {
+        bottom: 20%;
+        right: 0%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .nextStep {
+        right: 0%;
+        bottom: 1%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 16px;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .mobileHide {
+        display: none;
+    }
+
+    .minigame {
+        overflow: hidden;
+    }
+
+    .live2d {
+        transform: translate(-38%, 40%) scale(.7);
+        left: 0;
+        bottom: 0;
+    }
+
+    .resetgame {
+        bottom: 20%;
+        right: 0%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .nextStep {
+        right: 0%;
+        bottom: 1%;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .message {
+        font-size: 16px;
+        left: 20%;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .logo_minigame {
+        width: 240px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .minigame {
+        background-color: #97C5D8;
+        background-image: url(images/orientation.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    img, canvas, .nextStep {
+        opacity: 0;
+    }
+}

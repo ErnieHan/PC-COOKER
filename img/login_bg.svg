@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="782px" viewBox="0 0 1920 782" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="782"></rect>
+        <linearGradient x1="64.0171611%" y1="95.3415462%" x2="98.2351085%" y2="18.8078022%" id="linearGradient-3">
+            <stop stop-color="#BAD4E8" offset="0%"></stop>
+            <stop stop-color="#9EBDD9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.5893096%" y1="60.707463%" x2="5.14346524%" y2="63.3424697%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,832 C69.71,833.415 139.134,837.369 208.679,841.595 C276.817,845.734 341.367,859.337 408.351,871.787 C480.898,885.271 545.524,881.843 617.114,868.223 C692.752,853.833 764.267,825.021 841.999,821 C1000.629,812.795 1131.835,910.414 1285.072,933.99 C1389.455,950.05 1489.677,917.784 1590.484,897.105 C1698.69,874.909 1810.202,868.805 1920.171,879.274 C1918.71,765.882 1920,652.402 1920,539 L0,539 C0,539 0,832 0,832" id="path-5"></path>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-6">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-7">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,727 C0,727 201,721 311,761 C391.754,790.365 476.736,825.159 564.421,810.754 C649.063,796.85 706.45,739.19 776.754,697.429 C847.114,655.635 921.604,632.148 1004.05,642.534 C1099.482,654.556 1192.232,691.493 1281,727 C1471,803 1920,567 1920,567 L1920,0 L0,0 L0,727 Z" id="path-8"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10-Copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask" fill-rule="nonzero"></g>
+            <g mask="url(#mask-2)">
+                <g id="Fill-3">
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-5"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                </g>
+                <g id="Fill-5">
+                    <use fill="url(#linearGradient-6)" xlink:href="#path-8"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-7)" xlink:href="#path-8"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

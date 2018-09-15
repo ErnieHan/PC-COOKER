@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="595px" viewBox="0 0 842 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-1">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-2">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,159.469419 C0,159.469419 92.0203125,158.153302 142.379688,166.927411 C179.349878,173.368703 218.2557,181.000861 258.398989,177.841085 C297.149155,174.791205 323.421641,162.143328 355.607691,152.98294 C387.819378,143.815313 421.921831,138.663376 459.666641,140.941573 C503.356603,143.578631 545.818713,151.680862 586.457813,159.469419 C673.442188,176.140224 854.890869,104.990495 879,97.7444253 L879,0 L0,0 L0,159.469419 Z" id="path-3"></path>
+    </defs>
+    <g id="12" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="842" height="595"></rect>
+        <g id="Group-2-Copy-6" transform="translate(431.500000, 83.500000) scale(-1, -1) rotate(-180.000000) translate(-431.500000, -83.500000) translate(-8.000000, -6.000000)">
+            <g id="Fill-5">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+        <text id="組員介紹與分工" font-family="PingFangTC-Light, PingFang TC" font-size="36" font-weight="300" letter-spacing="4.5" fill="#FFFFFF">
+            <tspan x="279" y="101">組員介紹與分工</tspan>
+        </text>
+        <text id="插畫繪製-企劃書內容撰寫-建立MySQL" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" line-spacing="25" letter-spacing="2" fill="#404040">
+            <tspan x="86" y="438">插畫繪製</tspan>
+            <tspan x="59" y="463">企劃書內容撰寫</tspan>
+            <tspan x="44.424" y="488">建立MySQL資料庫 </tspan>
+        </text>
+        <text id="文案撰寫-企劃書內容撰寫-建立MySQL" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" line-spacing="25" letter-spacing="2" fill="#404040">
+            <tspan x="281" y="438">文案撰寫</tspan>
+            <tspan x="254" y="463">企劃書內容撰寫</tspan>
+            <tspan x="239.424" y="488">建立MySQL資料庫 </tspan>
+        </text>
+        <text id="文案撰寫-企劃書內容撰寫-網站視覺與版面" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" line-spacing="25" letter-spacing="2" fill="#404040">
+            <tspan x="472.5" y="438">文案撰寫</tspan>
+            <tspan x="445.5" y="463">企劃書內容撰寫</tspan>
+            <tspan x="427.5" y="488">網站視覺與版面設計 </tspan>
+        </text>
+        <text id="文案撰寫-企劃書內容撰寫-商品圖片蒐集整" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" line-spacing="25" letter-spacing="2" fill="#404040">
+            <tspan x="678.5" y="426">文案撰寫</tspan>
+            <tspan x="651.5" y="451">企劃書內容撰寫</tspan>
+            <tspan x="642.5" y="476">商品圖片蒐集整理</tspan>
+            <tspan x="636.924" y="501">建立MySQL資料庫 </tspan>
+        </text>
+        <text id="RWD網頁切版與動態撰寫" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="45" y="248">RWD網頁切版與動態撰寫</tspan>
+        </text>
+        <text id="RWD網頁切版與動態撰寫-Copy" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="240" y="248">RWD網頁切版與動態撰寫</tspan>
+        </text>
+        <text id="RWD網頁切版與動態撰寫-Copy-2" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="432" y="248">RWD網頁切版與動態撰寫</tspan>
+        </text>
+        <text id="RWD網頁切版與動態撰寫-Copy-3" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="638" y="248">RWD網頁切版與動態撰寫</tspan>
+        </text>
+        <text id="PHP程式撰寫" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="81" y="347">PHP程式撰寫</tspan>
+        </text>
+        <text id="PHP程式撰寫-Copy" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="276" y="347">PHP程式撰寫</tspan>
+        </text>
+        <text id="PHP程式撰寫-Copy-2" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="467" y="347">PHP程式撰寫</tspan>
+        </text>
+        <text id="PHP程式撰寫-Copy-3" font-family="PingFangTC-Light, PingFang TC" font-size="12" font-weight="300" letter-spacing="1.5" fill="#404040">
+            <tspan x="673" y="351">PHP程式撰寫</tspan>
+        </text>
+        <text id="科普小遊戲" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="77" y="273">科普小遊戲</tspan>
+        </text>
+        <text id="用戶評論區-Navbar.Footer" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="272" y="273">用戶評論區</tspan>
+            <tspan x="250.256" y="295">Navbar.Footer</tspan>
+        </text>
+        <text id="首頁-我要組電腦" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="491" y="273">首頁</tspan>
+            <tspan x="464" y="295">我要組電腦</tspan>
+        </text>
+        <text id="購物車-會員登入註冊-我要買零件" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="688" y="273">購物車</tspan>
+            <tspan x="661" y="295">會員登入註冊</tspan>
+            <tspan x="670" y="317">我要買零件</tspan>
+        </text>
+        <text id="購物車" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="95" y="372">購物車</tspan>
+        </text>
+        <text id="我要買零件" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="272" y="372">我要買零件</tspan>
+        </text>
+        <text id="我要組電腦" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="464" y="372">我要組電腦</tspan>
+        </text>
+        <text id="會員登入註冊" font-family="PingFangTC-Semibold, PingFang TC" font-size="16" font-weight="500" letter-spacing="2" fill="#404040">
+            <tspan x="661" y="374">會員登入註冊</tspan>
+        </text>
+        <path d="M214.5,221.441791 L214.5,516.558209" id="Line-2" stroke="#979797" fill="#404040" stroke-linecap="square"></path>
+        <path d="M409.5,221.441791 L409.5,516.558209" id="Line-2-Copy" stroke="#979797" fill="#404040" stroke-linecap="square"></path>
+        <path d="M608.5,221.441791 L608.5,516.558209" id="Line-2-Copy-2" stroke="#979797" fill="#404040" stroke-linecap="square"></path>
+        <text id="翁偉豪" font-family="PingFangTC-Semibold, PingFang TC" font-size="20" font-weight="500" letter-spacing="2.5" fill="#404040">
+            <tspan x="89.25" y="194">翁偉豪</tspan>
+        </text>
+        <text id="林婉婷" font-family="PingFangTC-Semibold, PingFang TC" font-size="20" font-weight="500" letter-spacing="2.5" fill="#404040">
+            <tspan x="281.25" y="194">林婉婷</tspan>
+        </text>
+        <text id="葉宗翰" font-family="PingFangTC-Semibold, PingFang TC" font-size="20" font-weight="500" letter-spacing="2.5" fill="#404040">
+            <tspan x="473.25" y="194">葉宗翰</tspan>
+        </text>
+        <text id="陳品妡" font-family="PingFangTC-Semibold, PingFang TC" font-size="20" font-weight="500" letter-spacing="2.5" fill="#404040">
+            <tspan x="686.25" y="194">陳品妡</tspan>
+        </text>
+    </g>
+</svg>

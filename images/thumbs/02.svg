@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="842px" height="595px" viewBox="0 0 842 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="71.3202012%" y1="0%" x2="71.3202012%" y2="91.1708024%" id="linearGradient-1">
+            <stop stop-color="#84A9CC" offset="0%"></stop>
+            <stop stop-color="#BFD7EE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.04317679%" y1="82.2510747%" x2="12.1519479%" y2="73.7139819%" id="linearGradient-2">
+            <stop stop-color="#E2EDF8" offset="0%"></stop>
+            <stop stop-color="#84A9CC" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,249.535367 C0,249.535367 88.146875,247.475928 136.386458,261.205522 C171.800452,271.28476 209.0686,283.227447 247.522126,278.283077 C284.64117,273.51067 309.80776,253.719461 340.638994,239.385422 C371.494785,225.040055 404.161754,216.978381 440.31776,220.54327 C482.168669,224.6697 522.843408,237.34795 561.771875,249.535367 C645.094792,275.621595 818.905702,164.287561 842,152.949018 L842,0 L0,0 L0,249.535367 Z" id="path-3"></path>
+        <path d="M0,149.492945 C0,149.492945 100.709375,148.259166 155.823958,156.484362 C196.285077,162.522684 238.8646,169.677371 282.798439,166.715273 C325.207607,163.856194 353.960885,151.999574 389.186119,143.412263 C424.43941,134.818167 461.762004,129.988537 503.070885,132.124209 C550.886294,134.596292 597.357908,142.191644 641.834375,149.492945 C737.032292,165.120818 935.614353,98.4222462 962,91.6294932 L962,0 L0,0 L0,149.492945 Z" id="path-4"></path>
+    </defs>
+    <g id="02" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="842" height="595"></rect>
+        <g id="Group-2" transform="translate(536.000000, 560.132102) rotate(-180.000000) translate(-536.000000, -560.132102) translate(115.000000, 420.000000)">
+            <g id="Fill-5">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+        <g id="Group-2-Copy" transform="translate(420.628183, 575.438736) scale(1, -1) rotate(-2.000000) translate(-420.628183, -575.438736) translate(-60.371817, 491.735668)">
+            <g id="Fill-5">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                <use fill-opacity="0.1" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+            </g>
+        </g>
+        <text id="品牌簡介" font-family="PingFangTC-Light, PingFang TC" font-size="36" font-weight="300" letter-spacing="4.5" fill="#84A9CC">
+            <tspan x="340" y="101">品牌簡介</tspan>
+        </text>
+        <path d="M89.5,127.5 L786.5,127.5" id="Line" stroke="#84AACC" fill="#84A9CC" stroke-linecap="square"></path>
+        <text id="主打能讓消費者快速、簡單、買到CP值最高" font-family="PingFangTC-Light, PingFang TC" font-size="16" font-weight="300" line-spacing="30" letter-spacing="2" fill="#404040">
+            <tspan x="146" y="217">	 主打能讓消費者快速、簡單、買到CP值最高的客製組裝電腦網站</tspan>
+            <tspan x="146" y="247">「組電腦」給予人的印象多為專業與科技感，為增添品牌親和力，品</tspan>
+            <tspan x="146" y="277">牌命名為 PC Cooker / PC 酷客：PC，顧名思義為「 Personal </tspan>
+            <tspan x="146" y="307">Computer (個人電腦)」的縮寫；Cooker 則取其在英文的「鍋具」</tspan>
+            <tspan x="146" y="337">之意，將組裝電腦比喻成烹飪一道佳餚的過程，PC Cooker就像孕育</tspan>
+            <tspan x="146" y="367">每台客製電腦的產生器</tspan>
+            <tspan x="326" y="367" letter-spacing="1.777778">。</tspan>
+        </text>
+    </g>
+</svg>

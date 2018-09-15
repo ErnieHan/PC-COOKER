@@ -1,0 +1,828 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+	background-color: #F5F8FB;
+}
+*{
+	padding: 0;
+	margin: 0;
+    list-style: none;
+}
+
+.container{
+	width: 100%;
+}
+
+a:hover{
+	color:#666;
+	text-decoration: none;
+}
+
+@keyframes next_btn_fadein{
+	from{
+		right:-10px;
+	}
+	to{
+		right:50px;
+	}
+}
+/* Step by Step 上方區塊*/
+.stepbystep_100vw{
+	width: 100%;
+	height: 370px;
+	background: url(img/bg-top-blue-for-stepbystep.svg)no-repeat center;
+	margin-top: -2px;
+	background-size: cover;
+}
+.stepbystep_top_container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.stepbystep_100vw h1{
+	color: #fff;
+	font-size:40px;
+	font-weight: 200;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.stepbystep_100vw h3{
+	color:#fff;
+	font-size:16px;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom:40px;
+	line-height: 24px;
+}
+.stepbystep_items{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.process{
+	max-width: 1200px;
+	margin: 0 auto;
+	transition: all 1s;
+}
+.stepbystep_items_fixed{
+	max-width: 1200px;
+	position: fixed;
+	margin: 0 auto;
+	justify-content: space-between;
+	/* top:80px; */
+	bottom:0;
+	background: #84a9cc;
+	z-index: 5;
+	border-radius: 5px 5px 0 0;
+}
+
+.stepbystep_items li{
+	color:#fff;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	font-weight: 300;
+	font-size: 16px;
+	cursor: pointer;
+}
+.stepbystep_items img{
+	padding:0 5px;
+}
+.stepbystep_point{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 0 auto;
+}
+.stepbystep_point li{
+	width: 120px;
+	display: flex;
+	justify-content: center;
+}
+.stepbystep_items_mobile{
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 360px;
+	display: none;
+}
+.stepbystep_items_mobile li{
+	width: 40px;
+	display: flex;
+	justify-content: center;
+}
+.stepbystep_point_mobile{
+	display: none;
+	justify-content: space-between;
+	width: 360px;
+	margin: 0 auto;
+}
+.stepbystep_point_mobile li{
+	width: 40px;
+	display: flex;
+	justify-content: center;
+}
+.point_container{
+	width: 1190px;
+	height: 25px;
+	position: relative;
+}
+.point{
+	position: absolute;
+	left: 60px;
+	top:0;
+	transition: all 1s;
+	z-index: 1;
+}
+.point_software{
+	left:60px;
+}
+.point_cpu{
+	left:210px
+}
+.point_mb{
+	left:369px;
+}
+.point_ram{
+	left:529px;
+}
+.point_gpu{
+	left:679px;
+}
+.point_hdd{
+	left:835px;
+}
+.point_power{
+	left:990px;
+}
+.point_case{
+	left:1142px;
+}
+.li_down{
+	width: 1200px;
+	max-width: 1200px;
+	height: 80px;
+	background: #fff;
+	border:0.5px solid #ddd;
+	/* box-shadow: 0px -2px 5px #ccc; */
+	border-radius: 15px 15px 0 0;
+	position: fixed;
+	bottom:-80px;
+	z-index: 5;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	transition: all .3s;
+}
+.li_down_left{
+	width: 700px;
+	height: 60px;
+}
+.li_down_right{
+	width: 450px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.down_ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.down_ul li{
+	font-size: 14px;
+	font-weight: 300;
+	color:#6c757d;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	filter: opacity(.2);
+}
+
+.down_ul li.down_software{
+	filter: opacity(1);	
+}
+
+.down_ul li img{
+	width: 30px;
+	height: 30px;
+	margin-bottom:3px;
+}
+
+.li_down_right p{
+	font-size: 24px;
+	font-weight: 300;
+	color:#6c757d;
+	line-height: 24px;
+	margin-top:27px;
+}
+.price_text{
+	font-size: 24px;
+	font-weight: 300;
+	color:#6c757d;
+	line-height: 24px;
+	margin-top:26px;
+}
+.li_shop{
+	width: 150px;
+	height: 40px;
+	background: #fc9f66;
+	border-radius: 5px;
+	text-align: center;
+}
+.li_shop:hover{
+	background: #F17529;
+}
+.li_shop h5{
+	font-size:14px;
+	color:#fff;
+	font-weight: 300;
+	padding:12px 0;
+}
+
+
+
+
+
+/* 挑選軟體區塊 */
+.stepbystep_software_container{
+	max-width: 1200px;
+	background: #F5F8FB;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	opacity: 1;
+	transition: all 1s;
+	height: auto;
+}
+.stepbystep_close{
+	height: 0;
+	opacity: 0;
+}
+.stepbystep_software_container h1{
+	font-size:24px;
+	font-weight: 300;
+	text-align: center;
+	padding:40px 0;
+	color: #282828;
+}
+.stepbystep_software_container h1::before,
+.stepbystep_software_container h1::after{
+	
+	width: 380px;
+	height: 2px;
+	background: #fac375;
+	content:"";
+	display: inline-block;
+	vertical-align: center;
+	margin:0 15px 7px 15px;
+	
+}
+.software_01{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.software_01 img{
+	padding:60px 0 30px 0;
+}
+.software_01 h2,
+.software_game h2{
+	font-size:24px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom:0px;
+	margin-top:20px;
+}
+.software_01 h3,
+.software_game h3{
+	font-size:14px;
+	font-weight: 300;
+	color:#aaa;
+	padding-bottom:30px;
+	padding-top:0px;
+}
+.three_software{
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.three_software_active{
+	background: #f5f5f5;
+}
+.three_software:hover{
+	border:1px solid #ccc;
+}
+
+.learnmore_btn{
+	font-size: 12px;
+	background: #a3a7ab;
+	color: #fff;
+	padding:5px 30px;
+	border-radius: 5px;
+}
+.learnmore_btn:hover{
+	color: #fff;
+	background: #8c8f93;
+
+}
+.software_img{
+	width: 300px;
+	height: 170px;
+}
+.software_game{
+	margin: 0 auto;
+	text-align: center;
+}
+.software_game img{
+	padding-bottom: 30px;
+}
+.software_02{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
+	justify-content: center;
+}
+.game{
+	width: 150px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 5px 40px;
+	border:1px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .5s;
+	position: relative;
+}
+
+.select_not{
+	position: absolute;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	width: 30px;
+	height: 30px;
+	top:0;
+	right:0;
+	opacity: 0;
+}
+.game:hover .select_not{
+	opacity: 1;
+}
+.select{
+	position: absolute;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	width: 30px;
+	height: 30px;
+	top:0;
+	right:0;
+	opacity: 0;
+}
+.select_light{
+	opacity: 1;
+}
+.gamename1,.gamename2,.gamename3,.gamename4,.gamename5,.gamename6,.gamename7,.gamename8,.gamename9{
+	display:none;
+}
+.game_click{
+	border:1px solid #fac375;
+}
+.game_img{
+	padding:10px;
+	width: 100px;
+	height: 100px;
+}
+.more_img{
+	padding:10px;
+	width: 100px;
+	height: 60px;
+}
+.game p {
+	display: inline-block;
+	font-size:14px;
+	font-weight: 300;
+}
+.game_more{
+	width: 150px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 5px 40px;
+	border:1px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.game_more p{
+	font-size:16px;
+	font-weight: 300;
+}
+/*  影音推薦區 */
+.rem_music{
+	width: 100%;
+	height: 0px;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 2s;
+	overflow: hidden;
+}
+.rem_music_open{
+	height: auto;
+	opacity: 1;
+	margin: 25px 0;
+}
+.rem_text{
+	margin: 35px;
+	position: relative;
+}
+.rem_text h2{
+	font-size:30px;
+	font-weight: 300;
+}
+.rem_text h3{
+	font-size:14px;
+	font-weight: 300;
+}
+.rem_cancel{
+	position: absolute;
+	right:35px;
+	top:15px;
+}
+.rem_music_flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.rem_music_div{
+	width: 262px;
+	height: 330px;
+	border-radius: 5px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+	background: #fff;
+	transition: all .5s;
+	position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rem_music_div:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+.rem_music_div p{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 8px 0;
+}
+.rem_music_div h4{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 8px 0;
+}
+.rem_music_img{
+	text-align: center;
+}
+.rem_btn{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	position: absolute;
+	bottom:0;
+	color:#fff;
+	background:#fc9f66;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+    line-height: 40px;
+    transition: all .4s;
+}
+.rem_btn:hover{
+    background: #F17529;
+}
+.rem_book{
+	width: 100%;
+	height: 0px;
+	
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 2s;
+	overflow: hidden;
+}
+.rem_book_open{
+	height: auto;
+	opacity: 1;
+	margin: 25px 0;
+}
+.rem_paint{
+	width: 100%;
+	height: 0px;
+	
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 2s;
+	overflow: hidden;
+}
+.rem_paint_open{
+	height: auto;
+	opacity: 1;
+	margin: 25px 0;
+}
+.next_btn{
+	z-index: 10;
+	width: 60px;
+	height: 60px;
+	background: #ccc;
+	position: fixed;
+	top:50%;
+	right:50px;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity .3s;
+}
+.next_btn:hover{
+	background: #84a9cc;
+}
+.pre_btn{
+	z-index: 9;
+	width: 60px;
+	height: 60px;
+	background: #ccc;
+	position: fixed;
+	top:50%;
+	left:50px;
+	transform: translateY(-50%);
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity .3s;
+}
+.pre_btn:hover{
+	background: #84a9cc;
+}
+
+/*中央處理器*/
+.sale_container{
+	max-width: 1200px;
+	height: 0;
+	opacity: 0;
+	transition: opacity 2s;
+	overflow: hidden;
+}
+.cpu_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+
+
+.cpu_text{
+	margin: 30px 30px  10px 30px;
+	max-width: 1100px;
+	width: 1100px;
+}
+.cpu_text h3{
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+	line-height: 30px;
+}
+.ms_text{
+	color: #84a9cc;
+	font-size: 16px;
+	font-weight: 300;
+	cursor: pointer;
+}
+.cpu_flex{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.cpu_sale{
+	width: 250px;
+	height: 300px;
+	background: #fff;
+	border-radius: 5px;
+	margin: 10px 20px;
+	position: relative;
+    border: 1.5px solid transparent;
+	cursor: pointer;
+	text-align: center;
+}
+.cpu_border{
+	border: 1.5px solid #84A9CD;
+}
+.cpu_sale:hover{
+	box-shadow: 0 0 15px #ccc;
+}
+.cpu_sale_img{
+	text-align: center;
+}
+.cpu_sale h1{
+	font-size: 16px;
+	font-weight: 300;
+	padding:0px 30px;
+}
+.cpu_sale h2{
+	font-size: 24px;
+	font-weight: 300;
+    padding:0px 30px;
+}
+.select_no{
+	position: absolute;
+	top:10px;
+	right:10px;
+	background: #fff;
+}
+.select_yes{
+	position: absolute;
+	background: #fff;
+	top:10px;
+	right:10px;
+	opacity: 0;
+}
+
+
+/*主機板*/
+.mb_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/* 記憶體 */
+.ram_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/* 顯示卡 */
+.gpu_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/* 硬碟 */
+.hdd_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/* 電源供應器 */
+.power_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/* 機殼 */
+.case_open{
+	opacity: 1;
+	height: auto;
+	margin: 10px auto 100px auto;
+}
+/*不合規格的灰階樣式*/
+.grey{
+	filter: grayscale(100%);
+	cursor: not-allowed;
+}
+
+/* ----RWD---- */
+@media screen and (max-width: 576px) {
+	.stepbystep_items{
+		display: none;
+	}
+	.stepbystep_items_mobile{
+		display: flex;
+	}
+	.stepbystep_point{
+		display: none;
+	}
+	.stepbystep_point_mobile{
+		display: flex;
+	}
+	.stepbystep_software_container h1::before{
+		display: none;
+	}
+	.stepbystep_software_container h1::after{
+		width: 300px;
+	}
+	.stepbystep_software_container h1{
+		padding-top:30px;
+		padding-bottom:10px;
+		font-size:18px;
+	}
+	.software_02{
+		justify-content: center;
+		width: 360px;
+	}
+	.game{
+		width: 120px;
+		margin: 1px 20px;
+	}
+	.game_more{
+		margin:5px 5px;
+	}
+	.point_container{
+		display: none;
+	}
+	.cpu_flex{
+		justify-content: center;
+		align-items: center;
+	}
+	.li_down{
+		width: 365px;
+		margin: 0 auto;
+		transform: translateX(-50%);
+   		left: 50%;
+	}
+	.li_down_left{
+		height: auto;
+	}
+	.li_down_right{
+        height: 35px;
+        margin-bottom: 8px;
+	}
+	.down_ul li{
+		font-size:10px;
+	}
+	.li_down_right p{
+		font-size: 16px;
+		margin: 10px 0px 0px 10px;
+	}
+	.down_ul li img {
+		width: 15px;
+		height: 15px;
+	}
+	.li_shop{
+		margin-top:10px;
+		margin-right:10px;
+		width: 100px;
+		height: 25px;
+	}
+	.li_shop h5{
+		font-size:10px;
+		margin: 0;
+		padding: 6px 0;
+	}
+	.cpu_text{
+		width: 350px;
+	}
+	.price_text{
+		margin-top:8px;
+	}
+    .software_01 img {
+        padding: 48px 0 30px 0;
+    }
+    .li_down{
+        height: auto;
+        margin-bottom: 0;
+    }
+    .down_ul{
+        margin: 0;
+    }
+    .next_btn{
+		width: 30px;
+		height: 30px;
+		right:15px;
+	}
+	.pre_btn{
+		width: 30px;
+		height: 30px;
+		left:15px;
+	}
+	.next_btn img{
+		width: 15px;
+	}
+	.pre_btn img{
+		width: 15px;
+	}
+	.rem_music_div{
+		margin: 15px 0;
+	}
+	
+
+}

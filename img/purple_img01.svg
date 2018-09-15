@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="163px" height="163px" viewBox="0 0 163 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000494318182 0.136339476 86.4483409 0.136339476 86.4483409 80.4044118 0.000494318182 80.4044118"></polygon>
+        <polygon id="path-3" points="6 1 87 1 87 81 6 81"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首頁" transform="translate(-619.000000, -836.000000)">
+            <g id="Group-6" transform="translate(629.000000, 846.000000)">
+                <circle id="Oval-7" stroke-opacity="0.3" stroke="#FFFFFF" stroke-width="10" cx="71.5" cy="71.5" r="76.5"></circle>
+                <g id="Group-4-Copy" transform="translate(28.000000, 31.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M79.9989716,80.4044118 L6.44936932,80.4044118 C2.8873125,80.4044118 0.000494318182,77.5537973 0.000494318182,74.0376166 L0.000494318182,6.50313466 C0.000494318182,2.98695393 2.8873125,0.136339476 6.44936932,0.136339476 L79.9989716,0.136339476 C83.562017,0.136339476 86.4488352,2.98695393 86.4488352,6.50313466 L86.4488352,74.0376166 C86.4488352,77.5537973 83.562017,80.4044118 79.9989716,80.4044118" id="Fill-1" fill="#EBF1F7" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M13,12 L73,12" id="Stroke-4" stroke="#DEE8F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M13,75 L73,75" id="Stroke-6" stroke="#DEE8F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M25,18 L25,52" id="Stroke-8" stroke="#A6C9E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M43,18 L43,52" id="Stroke-10" stroke="#A6C9E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M62,18 L62,52" id="Stroke-12" stroke="#A6C9E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M68.667,46 L57.333,46 C56.045,46 55,44.8815085 55,43.5005357 C55,42.1195629 56.045,41 57.333,41 L68.667,41 C69.955,41 71,42.1195629 71,43.5005357 C71,44.8815085 69.955,46 68.667,46" id="Fill-14" fill="#7198C1"></path>
+                    <path d="M49.667,27 L38.333,27 C37.044,27 36,25.8815085 36,24.5005357 C36,23.1195629 37.044,22 38.333,22 L49.667,22 C50.955,22 52,23.1195629 52,24.5005357 C52,25.8815085 50.955,27 49.667,27" id="Fill-16" fill="#7198C1"></path>
+                    <path d="M30.6661459,38 L19.3338541,38 C18.0449347,38 17,36.8815085 17,35.5005357 C17,34.1195629 18.0449347,33 19.3338541,33 L30.6661459,33 C31.9550653,33 33,34.1195629 33,35.5005357 C33,36.8815085 31.9550653,38 30.6661459,38" id="Fill-18" fill="#7198C1"></path>
+                    <path d="M28,63 C28,65.7609524 25.7609524,68 23,68 C20.2390476,68 18,65.7609524 18,63 C18,60.2390476 20.2390476,58 23,58 C25.7609524,58 28,60.2390476 28,63" id="Fill-20" fill="#76BB30"></path>
+                    <path d="M48,63 C48,65.7609524 45.7609524,68 43,68 C40.2390476,68 38,65.7609524 38,63 C38,60.2390476 40.2390476,58 43,58 C45.7609524,58 48,60.2390476 48,63" id="Fill-22" fill="#CF7C8A"></path>
+                    <path d="M66,63 C66,65.7609524 63.7609524,68 61,68 C58.2390476,68 56,65.7609524 56,63 C56,60.2390476 58.2390476,58 61,58 C63.7609524,58 66,60.2390476 66,63" id="Fill-24" fill="#F2D726"></path>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-27"></g>
+                    <path d="M6,81 L80.4694695,81 C84.0760761,81 87,78.1589058 87,74.6544681 L87,7.34553191 C87,3.84109422 84.0760761,1 80.4694695,1 L52.6316316,1 L6,81 Z" id="Fill-26" fill-opacity="0.35" fill="#FEFEFE" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

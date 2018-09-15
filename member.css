@@ -1,0 +1,111 @@
+/* -----------------------------login------------------- */
+.island{
+  background-image:url("img/index_mb.svg"),linear-gradient(to bottom, #84a9cc, #b4cee6);
+  background-position:95% 100%,center center;
+  background-repeat: no-repeat,no-repeat;
+  height: 90.5vh;
+}
+@media screen and (max-width: 576px) {
+	.island{
+    height: 87vh;
+	}  
+}
+@media screen and (max-width: 1600px) {
+	.island{
+    height: 88.2vh;
+	}  
+}
+.card{
+  width: 400px;
+  margin-top: 115px;
+}
+@media screen and (max-width: 1600px) {
+	.card{
+    margin-top: 40px;
+	}  
+}
+@media screen and (max-width: 576px) {
+	.card{
+    transform: scale(.9);
+    margin-top: -10px;
+	}  
+}
+.btn_register{
+  border-radius:  20px 0 0 20px;
+  color: #fff;
+  font-size: 13px;
+  width: 70px;
+}
+.btn_login{
+  border-radius: 0 20px  20px 0;
+  color: #fff;
+  font-size: 13px;
+  width: 70px;
+}
+.btn_register:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.btn_login:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.btn_darkblue{
+  background-color: #84A9CD;
+}
+.btn_lightblue{
+  background-color: #ccc;
+}
+.btn_darkblue:hover{
+  background-color: rgb(103, 141, 179);
+  transition: all .4s;
+}
+.btn_lightblue:hover{
+  background-color: #bbb;
+  transition: all .4s;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.btn-orange{
+  background-color: #FC9F66;
+  border-radius: 5px;
+  color: #fff;
+  width: 130px;
+  height: 30px;
+  line-height: 15px;
+}
+.btn-orange:hover{
+  background-color: #F17529;
+  transition: all .4s;
+}
+.card-body {
+  padding:50px 50px;
+}
+.form-control{
+  border:none;
+  border-bottom:.5px solid #ccc;
+  border-radius: 0;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+.member_already{
+  color: #84A9CD;
+  padding-left: 30px;
+}
+.member_already:hover{
+  color: #84A9CD;
+  transition: all .4s;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #495057;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.form-check-label> a{
+  color: #84A9CD;
+}

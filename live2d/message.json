@@ -1,0 +1,35 @@
+{
+    "mouseover": [
+        {
+            "selector": "#drag_CPU",
+            "text": ["這是CPUです<br>要裝在主機板上面"]
+        },
+        {
+            "selector": "#drag_RAM1",
+            "text": ["這是RAM<br>要插在主機板的記憶體插槽です"]
+        },
+        {
+            "selector": "#drag_RAM2",
+            "text": ["這是RAM<br>要插在主機板的記憶體插槽爹蘇"]
+        },
+        {
+            "selector": "#drag_CPUFAN",
+            "text": ["這是CPU的散熱器<br>要裝完CPU以後再裝"]
+        },
+        {
+            "selector": "#drag_Graphic_Card",
+            "text": ["這是顯示卡<br>插在PCI-E插槽"]
+        },
+        {
+            "selector": "#drag_case_fan",
+            "text": ["這是機殼風扇<br>現在還沒地方裝"]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#live2d",
+            "text": ["變態！", "買電腦、找酷客","有了PC酷客、再也不找工具人", "酷客組電腦、現在優惠中"]
+        }
+
+    ]
+}

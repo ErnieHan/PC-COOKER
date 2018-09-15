@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="23px" viewBox="0 0 32 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我要組電腦" transform="translate(-1647.000000, -607.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="next" transform="translate(1662.500000, 618.500000) scale(-1, 1) rotate(90.000000) translate(-1662.500000, -618.500000) translate(1651.000000, 602.000000)">
+                <path d="M22.477,11.274 C22.921,11.718 22.921,12.417 22.477,12.861 C22.048,13.29 21.334,13.29 20.906,12.861 L12.859,4.814 L12.859,31.369 C12.859,31.988 12.367,32.48 11.748,32.48 C11.129,32.48 10.621,31.988 10.621,31.369 L10.621,4.813 L2.59,12.86 C2.146,13.289 1.431,13.289 1.003,12.86 C0.559,12.416 0.559,11.717 1.003,11.273 L10.955,1.321 C11.384,0.892 12.098,0.892 12.526,1.321 L22.477,11.274 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@font-face {
+	font-family: FRABK;
+	src: url(FRABK.TTF);
+	}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: FRABK,'Noto Sans TC', sans-serif;
+    list-style: none;
+}
+body{
+	background-color: #F5F8FB;
+}
+.container{
+	width: 100%;
+}
+
+button:focus{
+	outline: 0;
+}
+/*    scroll bar   */
+::-webkit-scrollbar {
+    width: 2px;
+}
+::selection{
+    background: rgba(70, 73, 76,.5);
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background:#ddd; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #708090 ; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #708090 ; 
+}
+@media screen and (max-width: 576px)  {
+	::-webkit-scrollbar {
+		width: 0px;
+	}
+	
+	/* Track */
+	::-webkit-scrollbar-track {
+		background:#ddd; 
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #708090 ; 
+	}
+	
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #708090 ; 
+	}
+}
+/* start of navbar*/
+.navbar{
+	background: rgb(132, 169, 205);
+	width: 100%;
+	height: 80px;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+.nav-item .nav-link{
+	color: #fff;
+}
+.nav-item a{
+	font-size:16px;
+}
+button{
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.cart, .login{
+	padding: 5px 10px;
+	transform: scale(0.85);
+	position: relative;
+	display: block;
+}
+
+
+
+	/* 改變預設字體粗度 */
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-weight: 300;
+}
+
+	/* navbar 字體 hover */
+.navbar-expand-lg .navbar-nav li.nav-item{
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link:hover:after {
+    width: 69%;
+}
+
+a.element:not([href]):not([tabindex]):hover{
+	color: #fff;
+}
+
+
+ /* 下拉選單 */
+.list-group{
+	min-width: 160px;
+	top: 43px; /* 位置要設近一點，滑鼠比較容易摸到 */
+	right: -33px;
+	height: auto;
+	color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	display: none;
+	z-index: 10;
+	transition: top 0.3s;
+	font-size: 14px;
+	line-height: 20px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 0.25rem;
+}
+
+/* 會員下拉選單 */
+button.login .list-group{
+	min-width: 150px;
+	top: 41px; /* 位置要設近一點，滑鼠比較容易摸到 */
+	left: -16px;
+	height: auto;
+	color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	display: none;
+	z-index: 10;
+	transition: top 0.3s;
+	font-size: 14px;
+	line-height: 20px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 0.25rem;
+}
+
+
+li.nav-item .list-group-item{
+	padding: 5px 5px 3px 10px;
+	border: transparent;
+	border-left: 5px solid transparent;
+	color: #666;
+}
+button.login > ul.list-group > .list-group-item{
+	border: transparent;
+    border-left: 5px solid transparent;
+    color: #666;
+	padding: .75rem;
+}
+
+li.nav-item .list-group-item.active, li.nav-item .list-group-item-action:hover, button.login > ul.list-group > .list-group-item.active, button.login > ul.list-group > .list-group-item:hover{
+	background-color: #e5e5e5;
+	border-left: 5px solid #fac375;
+}
+
+.list-group a{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+button.login a{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+li.nav-item{
+	position: relative;
+	color: #fff;
+}
+
+li.nav-item:hover .list-group, a.element:hover .list-group, .list-group:hover, .list-group-item:hover,  button.login:hover ul.list-group, button.login:hover a.list-group-item{
+	display: block;
+	cursor: pointer;
+}
+
+.list-group span{
+	font-size: 10px;
+	color: #9b9b9b;
+}
+
+ /* 下拉選單end */
+
+
+
+.navbar-expand-lg .navbar-nav a.nav-link:after {
+   	content: '';
+    position: absolute;
+    left: 7px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    border-radius: 5px;
+    background: #eee;
+    transition: width 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.m_navbar{
+	position: relative;
+}
+
+/*手機版時不要出現*/
+.dropMenu{
+	width: 100vw;
+	min-height: 0;
+	height: 0;
+	background-color: #84A9CD;
+	transition: all .3s;
+	position: fixed;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.dropMenu ul{
+	width: 100%;
+}
+/* click menu and toggle */
+.dropMenu-collapsed{
+	min-height: 100vh;
+	transition: all .3s;
+	position: fixed;
+	overflow: hidden;
+}
+
+.dropMenu a{
+	width: 100%;
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px;
+	font-weight: 300;
+}
+.dropMenu a:hover{
+	background: #708090;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.dropMenu .active2:hover{
+	border-radius: 5px 5px 0 0;
+}
+.dropMenu li{
+	padding: 5px;
+}
+
+.m_list{
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 0 0 5px 5px;
+}
+ul.b_list{
+	width: 50%;
+}
+
+.social_icon{
+	position: absolute;
+	bottom: 50px;
+	left: 28%;
+	padding: 10px;
+}
+
+.social_icon img{
+	padding: 10px;
+}
+
+.b_list li{
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	border-right: 1px solid #ccc;
+}
+.b_list li:last-child{
+	border-bottom: 0;
+}
+.b_list + .b_list li{
+	border-right:0;
+}
+.b_list li a{
+	font-size: 16px;
+	padding: 4px;
+	color: #84A9CD;
+}
+.b_list li a:hover{
+	color: #fff;
+	border-radius: 0;
+}
+
+
+ /* 手機清單的navbar fixed-top雷 */
+.fixed-top-space2{
+	height: 70px;
+	background-color: #84A9CD;
+}
+/* here's the end of navbar*/
+
+
+
+
+/* bs4 的雷，Navbar 設 fixed-top 下面文字會被遮住，下面是解法 */
+.fixed-top-space{
+	height: 90px;
+	/*background-color: #84A9CD;*/
+}
+
+.blue{
+	background-color: #84A9CD;
+}
+
+@media screen and (max-width: 576px)  {
+	*{
+		overflow-x: hidden;
+	}
+	.navbar{
+		height: 70px;
+	}
+}

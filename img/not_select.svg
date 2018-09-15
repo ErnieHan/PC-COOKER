@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我要組電腦" transform="translate(-618.000000, -784.000000)" fill="#E0E0E0" fill-rule="nonzero">
+            <path d="M633,784 C624.715587,784 618,790.715587 618,799 C618,807.284413 624.715587,814 633,814 C641.284369,814 648,807.284413 648,799 C648,790.715587 641.284369,784 633,784 Z M631.123997,805.147593 L624.638068,799.741842 L625.877964,798.254324 L631.004933,802.529792 L640.057667,793.477058 L641.426077,794.845468 L631.123997,805.147593 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

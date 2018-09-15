@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="28px" viewBox="0 0 26 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>shopping-fill</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我要買零件" transform="translate(-1438.000000, -26.000000)" fill="#FBFBFB" fill-rule="nonzero">
+            <g id="shopping-fill" transform="translate(1432.000000, 23.000000)">
+                <rect id="Rectangle-path" opacity="0" x="0" y="0" width="36" height="34"></rect>
+                <path d="M30.8181818,10.3888889 L25.7954545,10.3888889 L25.7954545,9.86 C25.7954545,6.50155556 22.7522727,3.77777778 19,3.77777778 C15.2477273,3.77777778 12.2045455,6.50155556 12.2045455,9.86 L12.2045455,10.3888889 L7.18181818,10.3888889 C6.528125,10.3888889 6,10.8615833 6,11.4466667 L6,29.1644444 C6,29.7495278 6.528125,30.2222222 7.18181818,30.2222222 L30.8181818,30.2222222 C31.471875,30.2222222 32,29.7495278 32,29.1644444 L32,11.4466667 C32,10.8615833 31.471875,10.3888889 30.8181818,10.3888889 Z M23.1363636,10.3888889 L14.8636364,10.3888889 L14.8636364,9.86 C14.8636364,7.81386111 16.7139205,6.15777778 19,6.15777778 C21.2860795,6.15777778 23.1363636,7.81386111 23.1363636,9.86 L23.1363636,10.3888889 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
